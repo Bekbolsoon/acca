@@ -1,4 +1,5 @@
 window.addEventListener('wheel', handleScroll);
+window.addEventListener('touchmove', handleScroll);
 
 function handleScroll() {
   let firstScreen = document.querySelector('.first-screen');

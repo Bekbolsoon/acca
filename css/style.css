@@ -108,7 +108,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.first-screen__logo img {
+.first-screen__logo video {
   width: 100%;
 }
 @media (max-width: 991px) {
@@ -226,7 +226,7 @@ p {
   top: 0;
   left: 5rem;
 }
-.nav__logo img {
+.nav__logo video {
   width: 100%;
 }
 @media (max-width: 991px) {
@@ -439,6 +439,6 @@ p {
 .border__logo {
   width: 9rem;
 }
-.border__logo img {
+.border__logo video {
   width: 100%;
 }
