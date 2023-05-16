@@ -1,0 +1,55 @@
+// main: ../style.less
+
+.main-article {
+  display: flex;
+  justify-content: center;
+  font-family: 'Hiragino', sans-serif;
+  padding-top: 8rem;
+
+  @media @mobile {
+    padding-top: 0;
+  }
+}
+.main-article__imgs {
+  margin: 0 auto;
+  max-width: 114.2rem;
+  margin-bottom: 4.2rem;
+  position: relative;
+
+  @media @notebook-lg {
+    max-width: 90%;
+  }
+  @media @mobile {
+    max-width: 100%;
+  }
+}
+.main-article__bg {
+  width: 100%;
+}
+.main-article__subject {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-article__title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 5.5rem;
+  line-height: 8.2rem;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 11.2rem;
+
+  @media @pc-lg {
+    font-size: 4.5rem;
+  }
+  @media @mobile {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+  }
+  @media @mobile-sm {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}

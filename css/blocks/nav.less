@@ -1,0 +1,45 @@
+// main: ../style.less
+
+.nav {
+  font-family: 'SFMonoHeavyItalic', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.nav__logo {
+  width: 9rem;
+  position: absolute;
+  top: 0;
+  left: 5rem;
+
+  & img {
+    width: 100%;
+  }
+
+  @media @tablet {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.nav__inner {
+  padding: 5rem 0 3rem 0;
+
+  @media @tablet {
+    visibility: hidden;
+    padding: 4rem 0 8rem 0;
+  }
+}
+.nav__link {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: #121212;
+  margin-right: 7rem;
+  text-decoration: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+    upgrade-insecure-requests;
+    default-src
+      'none';
+    frame-src
+      'self';
+    child-src
+      'self'
+      'unsafe-inline'
+      blob:;
+    script-src
+      'self'
+      'unsafe-inline'
+      'unsafe-eval'
+      blob:;
+    style-src
+      'self'
+      'unsafe-inline';
+    img-src
+      'self'
+      'unsafe-inline'
+      data:
+      blob:
+      https://services.tzkt.io
+      https://cloudflare-ipfs.com/
+      https://ipfs.io/
+      https://templewallet.com/logo.png
+      https://gateway.pinata.cloud/;
+    font-src
+      'self'
+      data:
+      https://cloudflare-ipfs.com/
+      https://fonts.googleapis.com/
+      https://ipfs.io/
+      https://gateway.pinata.cloud/;
+    connect-src
+      'self'
+      https://better-call.dev
+      https://*.better-call.dev
+      https://*.cryptonomic-infra.tech
+      https://cryptonomic-infra.tech
+      blob:
+      data:
+      ws:
+      wss:
+      bootstrap.libp2p.io
+      preload.ipfs.io
+      https://mainnet.smartpy.io
+      https://mainnet-tezos.giganode.io
+      https://api.etherscan.io
+      https://api.thegraph.com
+      https://*.tzkt.io
+      https://api.hicdex.com
+      https://hdapi.teztools.io
+      https://api.teia.rocks
+      https://data.objkt.com
+      https://api.tzstats.com
+      https://*.wikidata.org
+      https://*.coinmarketcap.com
+      https://api.openweathermap.org
+      https://hicetnunc.xyz
+      https://*.hicetnunc.xyz
+      https://teia.art
+      https://*.teia.art
+      https://*.hicetnunc.art
+      https://*.teztools.io;
+    manifest-src
+      'self';
+    base-uri
+      'self';
+    form-action
+      'none';
+    media-src
+      'self'
+      'unsafe-inline'
+      data:
+      blob:
+      https://cloudflare-ipfs.com/
+      https://ipfs.io/
+      https://gateway.pinata.cloud/;
+    prefetch-src
+      'self'
+      https://cloudflare-ipfs.com/
+      https://fonts.googleapis.com/
+      https://ipfs.io/
+      https://gateway.pinata.cloud/;
+    worker-src
+      'self'
+      'unsafe-inline'
+      blob:;"
+    />
+
+    <title>HOME</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Silver Sea 1(035)" />
+    <meta name="twitter:creator" content="@MCHX17" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@MCHX17" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts/font-sfmono.css">
+    <link rel="stylesheet" href="fonts/font-hiragino.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="first-screen">
+      <div class="first-screen__inner">
+        <h3 class="first-screen__title">Auction Company of Computer Art </h3>
+        <div class="first-screen__logo">
+          <img src="img/acca_logo-800x800-PNG.gif" alt="logo">
+        </div>
+
+        <div class="ticker first-screen__ticker">
+          <p class="ticker__text">“All art is a kind of exorcism. This is what gives art its power to change the conditions of our life.” ― Jerry Saltz     “You don't need planning permission to build castles in the sky.”  - Banksy     “When you go to an Art gallery you are simply a tourist looking at the trophy cabinet of a few millionaires…” - Banksy     “There is nothing more dangerous than someone who wants to make the world a better place.”  - Banksy     “Some people become cops because they want to make the world a better place. Some people become vandals because they want to make the world a better looking place.” - Banksy     “Ah, good taste! What a dreadful thing! Taste is the enemy of creativeness.”
+            ― Pablo Picasso     “There is no abstract art. You must always start with something. Afterward you can remove all traces of reality.” ― Pablo Picasso     “I don't believe in art. I believe in artists.” ― Marcel Duchamp     “Art is either plagiarism or revolution.” - Marcel Duchamp     “Not everyone is an artist but everyone is a fucking critic.” ― Marcel Duchamp     “Among our articles of lazy hardware, I recommend the faucet that stops dripping when no one is listening to it.” ― Marcel Duchamp</p>
+        </div>
+      </div>
+
+      <canvas id="first-screen__canvas"></canvas>
+    </div>
+
+    <div class="home-content">
+      <div class="nav">
+        <div class="nav__logo">
+          <img src="img/acca_logo-800x800-PNG.gif" alt="">
+        </div>
+        <div class="nav__inner">
+          <a href="#" class="nav__link">Auctions</a>
+          <a href="#" class="nav__link">About</a>
+          <a href="#" class="nav__link">Home</a>
+          <a href="#" class="nav__link">Archive</a>
+          <a href="#" class="nav__link">Accomparts collection</a>
+          <a href="#" class="nav__link">Contact</a>
+        </div>
+        
+        <div class="ticker">
+          <p class="ticker__text">“All art is a kind of exorcism. This is what gives art its power to change the conditions of our life.” ― Jerry Saltz     “You don't need planning permission to build castles in the sky.”  - Banksy     “When you go to an Art gallery you are simply a tourist looking at the trophy cabinet of a few millionaires…” - Banksy     “There is nothing more dangerous than someone who wants to make the world a better place.”  - Banksy     “Some people become cops because they want to make the world a better place. Some people become vandals because they want to make the world a better looking place.” - Banksy     “Ah, good taste! What a dreadful thing! Taste is the enemy of creativeness.”
+            ― Pablo Picasso     “There is no abstract art. You must always start with something. Afterward you can remove all traces of reality.” ― Pablo Picasso     “I don't believe in art. I believe in artists.” ― Marcel Duchamp     “Art is either plagiarism or revolution.” - Marcel Duchamp     “Not everyone is an artist but everyone is a fucking critic.” ― Marcel Duchamp     “Among our articles of lazy hardware, I recommend the faucet that stops dripping when no one is listening to it.” ― Marcel Duchamp</p>
+        </div>
+      </div>
+
+      <div class="main-article">
+        <div class="container">
+          <div class="main-article__imgs">
+            <img class="main-article__bg" src="img/main-article/bg-main-article.png"></img>
+            <img class="main-article__subject" src="img/main-article/acca_logo 1296  x  680  PNG (PREVIEW).gif" alt="main-article">
+          </div>
+          <h1 class="main-article__title">Acca Metaverse Art Gallery: Five Key Principles</h1>
+        </div>
+      </div>
+
+      <div class="aricles">
+        <div class="article">
+          <div class="article__inner">
+            <div class="article__description">
+              <h2 class="article__title">catalog of the first acca exhibition in oncyber
+                <br>digital art, generative art, 3d sculpture</h2>
+              <p class="article__text">About 5 years ago I got my hands on a book about
+                the evolution of exhibition space. When I read
+                it, I wondered if there could be a further
+                evolution of art space. It just seems like 
+                everything is already done in this field. These
+                days I came back to this thought and understood
+                that surely, it may be a further development.</p>
+            </div>
+            <div class="article__img">
+              <img src="img/articles/article-1.png" alt="article">
+            </div>
+          </div>
+        </div>
+
+        <div class="articles__border border">
+          <div class="border__line"></div>
+          <div class="border__logo">
+            <img src="img/acca_logo-800x800-PNG.gif" alt="logo">
+          </div>
+          <div class="border__line"></div>
+        </div>
+
+        <div class="article">
+          <div class="article__inner article__inner_reverse">
+            <div class="article__description">
+              <h2 class="article__title">MCHX interview</h2>
+              <p class="article__quote">“My thoughts are true”</p>
+              <p class="article__text">Conversation between MCHX and Abramovskiy
+                about high art and the search for oneself in it.</p>
+            </div>
+            <div class="article__img">
+              <img src="img/articles/article-2.png" alt="article">
+            </div>
+          </div>
+        </div>
+
+        <div class="articles__border border">
+          <div class="border__line"></div>
+          <div class="border__logo">
+            <img src="img/acca_logo-800x800-PNG.gif" alt="logo">
+          </div>
+          <div class="border__line"></div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="js/home-animation.js"></script>
+  </body>
+</html>

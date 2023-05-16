@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Hiragino';
+  src: url('Hiragino/Hiragino.woff2') format('woff2'),
+       url('Hiragino/Hiragino.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

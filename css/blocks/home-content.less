@@ -1,0 +1,15 @@
+// main: ../style.less
+
+.home-content {
+  transition: opacity 0.5s ease;
+  display: none;
+}
+
+.home-content.visible {
+  animation: fade-in 3s linear;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
