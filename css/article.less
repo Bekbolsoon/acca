@@ -4,6 +4,13 @@
 
 html {
   font-size: 10px;
+
+  @media @notebook {
+    font-size: 8px;
+  }
+  @media @notebook {
+    font-size: 8px;
+  }
 }
 body {
   margin: 0;
@@ -39,7 +46,8 @@ p {
 @import "_common/nav.less";
 @import "_common/ticker.less";
 @import "_common/footer.less";
-/* Home content */
-@import "blocks/main-article.less";
-@import "blocks/article.less";
-@import "blocks/border.less";
+/* Article content */
+@import "article-blocks/intro.less";
+@import "article-blocks/subject.less";
+@import "article-blocks/principles.less";
+@import "article-blocks/gallery.less";

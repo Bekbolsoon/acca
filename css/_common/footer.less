@@ -1,0 +1,136 @@
+// main: "../style.less", main: "../article.less"
+
+.footer {
+  position: relative;
+  padding-top: 41.3rem;
+  padding-bottom: 6rem;
+
+  @media @mobile {
+    padding-top: 2rem;
+  }
+}
+.footer__inner {
+  padding-top: 5rem;
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+  border-top: #000000 .3rem solid;
+  max-width: 180rem;
+  margin: 0 auto;
+
+  @media @tablet {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+  }
+  @media @mobile {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+
+  @media @tablet {
+    flex-wrap: wrap;
+  }
+}
+.footer__section {
+  display: flex;
+  flex-direction: column;
+
+  @media @tablet {
+    &:nth-child(1),
+    &:nth-child(2) {
+      width: 50%;
+    }
+
+    &:nth-child(2) {
+      align-items: flex-end;
+    }
+
+    &:nth-child(3) {
+      width: 100%;
+      margin-top: 4rem;
+      align-items: center;
+    }
+  }
+
+  @media @mobile-sm {
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      width: 100%;
+      align-items: center;
+    }
+
+    &:nth-child(2) {
+      margin-top: 4rem;
+    }
+  }
+}
+.footer__title {
+  font-family: 'SFMonoRegular', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #000000;
+  margin-bottom: 3rem;
+
+  @media @mobile {
+    margin-bottom: 2rem;
+  }
+}
+.footer__link {
+  font-family: 'SFMonoRegular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #121212;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  text-align: left;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media @mobile {
+    margin-bottom: 1rem;
+  }
+  @media @mobile-sm {
+    text-align: center;
+  }
+}
+.footer__main {
+  
+}
+.footer__links {
+  display: flex;
+  margin-bottom: 1.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__small-link {
+  font-family: 'SFMonoRegular', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #000000;
+  text-decoration: none;
+  margin-right: 2rem;
+  text-align: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.footer__social-links {
+  text-align: center;
+}
+.footer__social-icon {
+  text-decoration: none;
+}

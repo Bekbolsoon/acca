@@ -1,10 +1,15 @@
-// main: ../style.less
+// main: "../style.less", main: "../article.less"
 
 .ticker {
   font-family: 'Hiragino', sans-serif;
   overflow: hidden;
   white-space: nowrap;
   background: #0000FE;
+  margin-top: 10rem;
+
+  @media @mobile {
+    display: none;
+  }
 }
 
 .ticker__text {

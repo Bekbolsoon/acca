@@ -1,0 +1,134 @@
+// main: ../article.less
+
+.principles {
+  padding-bottom: 10rem;
+
+  @media @mobile {
+    padding-bottom: 2rem;
+  }
+}
+.principles__inner {
+}
+.principles__title {
+  font-family: 'Hiragino', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-bottom: 5rem;
+  text-align: center;
+
+  @media @mobile {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+.principles__text {
+  font-family: 'SFMonoRegular', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #000000;
+  max-width: 108rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+
+  @media @mobile {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 0 2.4rem;
+    margin-bottom: 2rem;
+  }
+}
+.principle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  @media @mobile {
+    margin-bottom: 5rem;
+  }
+}
+.principle__title {
+  display: flex;
+  font-family: 'SFMonoRegular', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #000000;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+
+  & span {
+    color: #D93A22;
+  }
+
+  @media @mobile {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: .4rem;
+  }
+}
+.principle__text {
+  font-family: 'SFMonoRegular', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #000000;
+  max-width: 38.2rem;
+  text-align: center;
+  margin-bottom: 10rem;
+
+  &_2 {
+    max-width: 111rem;
+  }
+  &_4 {
+    max-width: 120.4rem;
+  }
+  &_5 {
+    max-width: 115.1rem;
+    margin-bottom: 5rem;
+  }
+
+  @media @mobile {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    max-width: 50%;
+    margin-bottom: 5rem;
+
+    &_2,
+    &_4,
+    &_5 {
+      max-width: 100%;
+      padding: 0 2.4rem;
+    }
+  }
+}
+.principle__img {
+  max-width: 100%;
+
+  & img {
+    width: 100%;
+  }
+
+  @media @mobile {
+    padding: 0 1.2rem;
+
+    &_subject {
+      max-width: 28.8rem;
+    }
+  }
+}

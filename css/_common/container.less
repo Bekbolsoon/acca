@@ -1,20 +1,17 @@
-// main: ../style.less
+// main: "../style.less", main: "../article.less"
 
-.container{
-  // max-width: 1149px;
-  // width: 100%;
-  // margin: 0 auto;
+.common-bg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 120%;
+	height: 120%;
+	z-index: -1;
 
-  /* @media @notebook-lg {
-      max-width: 1000px;
-  }
-  @media @notebook {
-      max-width: 850px;
-  }
-  @media @notebook-sm {
-      max-width: 650px;
-  }
-  @media @mobile {
-      padding: 0 2.5rem;
-  } */
+	& video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
