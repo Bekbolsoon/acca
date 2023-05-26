@@ -110,12 +110,12 @@
   </head>
   <body>
     <div class="first-screen">
-      <div class="common-bg">
+      <!-- <div class="common-bg">
         <video autoplay loop muted playsinline>
           <source src="img/bg.webm" type="video/webm" />
           <source src="img/bg.mp4" type="video/mp4" />
         </video>
-      </div>
+      </div> -->
       <div class="first-screen__inner">
         <h3 class="first-screen__title">Computer Art Auction House</h3>
         <div class="first-screen__logo">
@@ -314,8 +314,23 @@
       </div>
 
       <footer class="footer">
+        <div class="common-bg">
+          <video autoplay loop muted playsinline>
+            <source src="img/bg.webm" type="video/webm" />
+            <source src="img/bg.mp4" type="video/mp4" />
+          </video>
+        </div>
         <div class="footer__inner">
           <div class="footer__nav">
+            <div class="footer__form">
+              <h2 class="footer__form-title">Subscribe<br> for updates</h2>
+              <label for="email" class="footer__label">Email</label>
+              <form>
+                <img src="img/arrow-right.svg" alt="arrow-right">
+                <input type="text" name="email" class="footer__input" placeholder="your.email@example.com">
+              </form>
+            </div>
+            
             <div class="footer__section">
               <h4 class="footer__title">Help</h4>
               <a href="#" class="footer__link">FAQ</a>
@@ -331,9 +346,6 @@
               <a href="#" class="footer__link">Auctions</a>
               <a href="#" class="footer__link">About</a>
               <a href="#" class="footer__link">Home</a>
-              <a href="#" class="footer__link">Archive</a>
-              <a href="#" class="footer__link">Accomparts collection</a>
-              <a href="#" class="footer__link">Contact</a>
             </div>
             <div class="footer__section">
               <h4 class="footer__title">Services</h4>
