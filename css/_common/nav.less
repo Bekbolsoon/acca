@@ -1,14 +1,13 @@
-// main: "../style.less", main: "../article.less"
+// main: "../style.less", main: "../article.less", main: "../about.less"
 
 .nav {
   font-family: 'SFMonoHeavyItalic', sans-serif;
   display: flex;
   justify-content: center;
   overflow: hidden;
-  position: fixed;
   width: 100%;
-  background-color: #fff;
-  z-index: 2;
+  position: relative;
+  z-index: 1;
   border-bottom: .1rem solid #000;
 
   @media @mobile {
@@ -20,21 +19,25 @@
 .nav__logo {
   width: 9rem;
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: 5rem;
 
-  & video {
+  & img {
     width: 100%;
   }
-
+  @media @tablet {
+    width: 4.5rem;
+    left: 3rem;
+  }
   @media @mobile {
     width: 3.6rem;
-    top: 3rem;
     left: 2.4rem;
   }
 }
 .nav__inner {
   padding: 5rem 0 3rem 0;
+  z-index: 2;
 
   @media @tablet {
     padding: 4rem 0 4rem 0;

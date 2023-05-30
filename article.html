@@ -1,112 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="
-    upgrade-insecure-requests;
-    default-src
-      'none';
-    frame-src
-      'self';
-    child-src
-      'self'
-      'unsafe-inline'
-      blob:;
-    script-src
-      'self'
-      'unsafe-inline'
-      'unsafe-eval'
-      blob:;
-    style-src
-      'self'
-      'unsafe-inline';
-    img-src
-      'self'
-      'unsafe-inline'
-      data:
-      blob:
-      https://services.tzkt.io
-      https://cloudflare-ipfs.com/
-      https://ipfs.io/
-      https://templewallet.com/logo.png
-      https://gateway.pinata.cloud/;
-    font-src
-      'self'
-      data:
-      https://cloudflare-ipfs.com/
-      https://fonts.googleapis.com/
-      https://ipfs.io/
-      https://gateway.pinata.cloud/;
-    connect-src
-      'self'
-      https://better-call.dev
-      https://*.better-call.dev
-      https://*.cryptonomic-infra.tech
-      https://cryptonomic-infra.tech
-      blob:
-      data:
-      ws:
-      wss:
-      bootstrap.libp2p.io
-      preload.ipfs.io
-      https://mainnet.smartpy.io
-      https://mainnet-tezos.giganode.io
-      https://api.etherscan.io
-      https://api.thegraph.com
-      https://*.tzkt.io
-      https://api.hicdex.com
-      https://hdapi.teztools.io
-      https://api.teia.rocks
-      https://data.objkt.com
-      https://api.tzstats.com
-      https://*.wikidata.org
-      https://*.coinmarketcap.com
-      https://api.openweathermap.org
-      https://hicetnunc.xyz
-      https://*.hicetnunc.xyz
-      https://teia.art
-      https://*.teia.art
-      https://*.hicetnunc.art
-      https://*.teztools.io;
-    manifest-src
-      'self';
-    base-uri
-      'self';
-    form-action
-      'none';
-    media-src
-      'self'
-      'unsafe-inline'
-      data:
-      blob:
-      https://cloudflare-ipfs.com/
-      https://ipfs.io/
-      https://gateway.pinata.cloud/;
-    prefetch-src
-      'self'
-      https://cloudflare-ipfs.com/
-      https://fonts.googleapis.com/
-      https://ipfs.io/
-      https://gateway.pinata.cloud/;
-    worker-src
-      'self'
-      'unsafe-inline'
-      blob:;"
-    />
-
-    <title>ARTICLE</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Silver Sea 1(035)" />
     <meta name="twitter:creator" content="@MCHX17" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@MCHX17" />
-    <!-- fonts -->
     <link rel="stylesheet" href="fonts/font-sfmono.css" />
     <link rel="stylesheet" href="fonts/font-hiragino.css" />
-    <!-- styles -->
     <link rel="stylesheet" href="css/article.css" />
+    <title>ARTICLE</title>
   </head>
   <body>
     <div class="first-screen">
@@ -119,32 +23,23 @@
       <div class="first-screen__inner">
         <h3 class="first-screen__title">Computer Art Auction House</h3>
         <div class="first-screen__logo">
-          <video autoplay loop muted playsinline>
-            <source src="img/logo.webm" type="video/webm" />
-            <source src="img/logo.mp4" type="video/mp4" />
-          </video>
+          <img src="img/logo.gif" alt="logo">
         </div>
       </div>
     </div>
 
-    <div class="other-content" style="position: relative;">
-      <!-- <div class="common-bg">
-        <video autoplay loop muted playsinline>
-          <source src="img/bg.webm" type="video/webm" />
-          <source src="img/bg.mp4" type="video/mp4" />
-        </video>
-      </div> -->
+    <div class="other-content">
+      <div class="backgrounds">
+      </div>
       <div class="nav">
         <div class="nav__logo">
-          <video autoplay loop muted playsinline>
-            <source src="img/logo.webm" type="video/webm" />
-            <source src="img/logo.mp4" type="video/mp4" />
-          </video>
+          <img src="img/logo.gif" alt="logo">
         </div>
         <div class="nav__inner">
           <a href="#" class="nav__link">Auctions</a>
           <a href="#" class="nav__link">Home</a>
           <a href="#" class="nav__link">About</a>
+          <a href="#" class="nav__link">Treasury</a>
           <div class="nav__close">
             <img src="img/close.svg" alt="close">
           </div>
@@ -160,12 +55,6 @@
       </div>
 
       <div class="intro">
-        <div class="common-bg">
-          <video autoplay loop muted playsinline>
-            <source src="img/bg.webm" type="video/webm" />
-            <source src="img/bg.mp4" type="video/mp4" />
-          </video>
-        </div>
         <div class="intro__inner">
           <h1 class="intro__title">
             ACCA Metaverse Art Gallery: <br />Five Key Principles
@@ -184,44 +73,25 @@
       </div>
 
       <div class="subject">
-        <div class="common-bg">
-          <video autoplay loop muted playsinline>
-            <source src="img/bg.webm" type="video/webm" />
-            <source src="img/bg.mp4" type="video/mp4" />
-          </video>
-        </div>
         <div class="subject__inner">
           <div class="subject__video">
-            <video autoplay loop muted playsinline>
-              <source
-                src="img/main-article/main-article.webm"
-                type="video/webm"
-              />
-              <source
-                src="img/main-article/main-article.mp4"
-                type="video/mp4"
-              />
-            </video>
+            <img src="img/main-article/main-article.gif" alt="main-article">
           </div>
-          <div class="subject__img">
-            <img src="img/subject/subject.png" alt="subject" />
+          <div class="subject__cards">
+            <div class="subject__card">
+              <img src="img/subject/subject.png" alt="subject" />
+            </div>
+            <div class="subject__card">
+              <img src="img/subject/subject.png" alt="subject" />
+            </div>
           </div>
           <div class="subject__logo">
-            <video autoplay loop muted playsinline>
-              <source src="img/logo.webm" type="video/webm" />
-              <source src="img/logo.mp4" type="video/mp4" />
-            </video>
+            <img src="img/logo.gif" alt="logo">
           </div>
         </div>
       </div>
 
       <div class="principles">
-        <div class="common-bg">
-          <video autoplay loop muted playsinline>
-            <source src="img/bg.webm" type="video/webm" />
-            <source src="img/bg.mp4" type="video/mp4" />
-          </video>
-        </div>
         <div class="principles__inner">
           <h2 class="principles__title">
             Five Key Principles of Creating ACCA Metaverse Art Space
@@ -315,12 +185,6 @@
       </div>
 
       <div class="gallery">
-        <div class="common-bg">
-          <video autoplay loop muted playsinline>
-            <source src="img/bg.webm" type="video/webm" />
-            <source src="img/bg.mp4" type="video/mp4" />
-          </video>
-        </div>
         <div class="gallery__inner">
           <div class="gallery__img">
             <img src="img/gallery/1.png" alt="gallery-image" />
@@ -338,12 +202,6 @@
       </div>
 
       <footer class="footer">
-        <div class="common-bg">
-          <video autoplay loop muted playsinline>
-            <source src="img/bg.webm" type="video/webm" />
-            <source src="img/bg.mp4" type="video/mp4" />
-          </video>
-        </div>
         <div class="footer__inner">
           <div class="footer__nav">
             <div class="footer__form">
@@ -370,6 +228,7 @@
               <a href="#" class="footer__link">Auctions</a>
               <a href="#" class="footer__link">About</a>
               <a href="#" class="footer__link">Home</a>
+              <a href="#" class="footer__link">Treasury</a>
             </div>
             <div class="footer__section">
               <h4 class="footer__title">Services</h4>
@@ -421,7 +280,7 @@
         </div>
       </footer>
     </div>
-    <script src="js/main.js"></script>
+    
     <script src="js/other-content-animation.js"></script>
   </body>
 </html>

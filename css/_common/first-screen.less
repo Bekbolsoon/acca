@@ -1,18 +1,10 @@
 // main: "../style.less", main: "../article.less"
 
 .first-screen {
-  padding-top: 9.2rem;
   position: relative;
   height: 100vh;
   overflow: hidden;
   transition: transfrorm 3s ease;
-
-  @media @notebook {
-    padding-top: 6rem;
-  }
-  @media @mobile {
-    padding-top: 3rem;
-  }
 }
 .first-screen.no-visible {
   animation: fade-out 3s linear;
@@ -50,7 +42,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  & video {
+  & img {
     width: 100%;
   }
 
